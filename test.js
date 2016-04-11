@@ -81,7 +81,7 @@ Route.prototype = {
 
     },
 
-    call: function (url) {
+    callBack: function (url) {
 
         var route = this.defined(url);
         if (route) {
